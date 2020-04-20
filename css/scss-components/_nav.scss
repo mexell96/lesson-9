@@ -1,0 +1,134 @@
+nav {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 5%;
+}
+@media screen and (max-width: 768px) {
+nav {
+    display: none;
+    }
+}
+.menu_top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 8%;
+    background-color: white;
+}
+.menu_top_w {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    font-size: calc(10px + 2vw);
+    font-family: Deftone-Stylus;
+    text-transform: uppercase;
+    text-align: left;
+    background-color: white;
+    color: #FD7858;
+    border: 1px solid #ebebeb;
+}
+.menu_top_w:hover {
+    color: #c33e5a;
+}
+.menu {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 92%;
+}
+.menu_up {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 50%;
+}
+.menu_down {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    height: 50%;
+    background: linear-gradient(0deg, #fd5272, #f9745a);
+}
+.span_nav {
+    font-size: calc(7px + 0.5vw);
+    color: white;
+    margin: 10px 0 10px 0;
+}
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 20%;
+    background-color: #fc755a;
+    border: 0;
+    padding: 0;
+}
+.home:hover {
+    background-color: #c03e58;
+}
+.statics {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 20%;
+    background-color: #fc755a;
+    border: 0;
+}
+.statics:hover {
+    background-color: #c03e58;
+}
+.users {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 20%;
+    background-color: #fc755a;
+    border: 0;
+}
+.users:hover {
+    background-color: #c03e58;
+}
+.settings {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 20%;
+    background-color: #fc755a;
+    border: 0;
+}
+.settings:hover {
+    background-color: #c03e58;
+}
+.quires {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 20%;
+    background-color: #fc755a;
+    border: 0;
+}
+.quires:hover {
+    background-color: #c03e58;
+}
+.power {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 20%;
+    border: 0;
+    background-color: #fd5371;
+}
+.power:hover {
+    background-color: #c03e58;
+}

@@ -1,0 +1,71 @@
+.statistics-tab {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    background-color: white;
+}
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+.box_small {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 80%;
+    margin: 0.5vw 2.8vw 0.5vw 2.8vw;
+}
+.change {
+    display: flex;
+    flex-direction: row;
+}
+.triangle_up {
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 10px solid #a889e9;
+    margin: 1px;
+    padding: 2px 0 0 0;
+}
+.triangle_down {
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 10px solid #fd5670;
+    margin: 1px;
+    padding: 0 0 2px 0;
+}
+.name {
+    font-family: Lato-Bold;
+    font-weight: bold;
+    font-size: calc(12px + 0.3vw);
+}
+.total {
+    font-family: Lato-Bold;
+    font-size: calc(10px + 1vw);
+    color: #FD7858;
+    margin: 4px;
+}
+.change {
+    font-family: Lato-Light;
+    font-size: calc(9px + 0.3vw);
+}
+.name_stat {
+    font-family: Lato-Bold;
+    font-weight: bold;
+    font-size: calc(12px + 0.3vw);
+    color: #FD7858;
+    background-color: white;
+    border: 0;
+}
+
+
+

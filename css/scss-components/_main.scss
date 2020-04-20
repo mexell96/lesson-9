@@ -1,0 +1,127 @@
+main {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+}
+.main_left {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: calc(200px + 60vw);
+    background-color: #ebebeb;
+}
+.progress_diagram {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: white;
+    margin: 0.5vw 0.5vw 0.5vw 0.5vw;
+    img {
+        width: calc(100px + 45vw);
+        height: calc(100px + 10vw);
+    }
+    div {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 5px 5px 0 5px;
+        div {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            font-family: Lato-Bold;
+            font-weight: bold;
+            font-size: calc(12px + 0.3vw);
+            img {
+                width: 0.3vw;
+                height: 1vw;
+            }
+        }
+    }
+}
+.time{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 1vw 0 1vw;
+}
+
+
+
+.circle {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    margin: 0.5vw 0.5vw 0.5vw 0.5vw;
+    img {
+        width: calc(100px + 11vw);
+        height: calc(100px + 7vw);
+    }
+    h6 {
+        font-family: Lato-Bold;
+        font-weight: bold;
+        font-size: calc(12px + 0.5vw);
+        margin-top: 20px;
+    }
+    span {
+        font-family: Lato-Bold;
+        font-size: calc(12px + 0.2vw);
+        margin-bottom: 20px;
+    }
+
+
+
+}
+.feed {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 0.5vw 0.5vw 0.5vw 0.5vw;
+    img {
+        width: calc(100px + 25vw);
+        height: calc(100px + 25vw);
+    }
+}
+.main_button {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: #ebebeb;
+    width: calc(110px + 33vw);
+}
+.task {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 0.5vw 0.5vw 0.5vw 0.5vw;
+    height: calc(100px + 8vw);
+    img {
+        width: calc(100px + 33vw);
+        height: calc(100px + 8vw);
+    }
+}
+.progress {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 0.5vw 0.5vw 0.5vw 0.5vw;
+    height: calc(100px + 10vw);
+    img {
+        width: calc(100px + 13vw);
+        height: calc(100px + 10vw);
+    }
+}
+.shipments {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 0.5vw 0.5vw 0.5vw 0.5vw;
+    height: calc(100px + 10vw);
+    img {
+        width: calc(100px + 13vw);
+        height: calc(100px + 10vw);
+    }
+}

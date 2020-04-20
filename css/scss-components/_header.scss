@@ -1,0 +1,215 @@
+header {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    background-color: white;
+}
+.header_left {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: white;
+}
+.header_left_center {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+.header_right_center {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: white;
+}
+.header_right {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: white;
+}
+.rounded-rectangle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: white;
+    border: 0;
+    padding: 0;
+    border: 0.5px solid #ebebeb;
+    width: calc(15px + 4vw);
+    height: calc(15px + 4vw);
+}
+.rounded-rectangle:hover {
+    background-color: #c03e58;
+}
+.oval {
+    width: 40px;
+    height: 25px;
+    margin: 0;
+    background: linear-gradient(0deg, #fd5272, #f9745a);
+    border-radius: 40%;
+}
+.folder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: white;
+    border: 0;
+    padding: 0;
+    border: 0.5px solid #ebebeb;
+    width: calc(15px + 4vw);
+    height: calc(15px + 4vw);
+}
+.folder:hover {
+    background-color: #c03e58;
+}
+.settings-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: white;
+    border: 0;
+    padding: 0;
+    border: 0.5px solid #ebebeb;
+    width: calc(15px + 4vw);
+    height: calc(15px + 4vw);
+}
+.settings-icon:hover {
+    background-color: #c03e58;
+}
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin: 0px 0px 0px calc(20px + 4vw);
+    border-radius: 2%/50%;
+    border: 0.5px solid #ebebeb;
+    width: calc(30px + 38vw);
+    height: calc(15px + 1vw);  
+}
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin: 0px calc(20px + 4vw) 0px 0px;
+}
+
+
+
+// доделать поиск //
+
+.upload {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: white;
+    border: 0;
+    padding: 0;
+    border: 0.5px solid #ebebeb;
+    width: calc(15px + 4vw);
+    height: calc(15px + 4vw);
+}
+.upload:hover {
+    background-color: #c03e58;
+}
+.envelope {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: white;
+    border: 0;
+    padding: 0;
+    border: 0.5px solid #ebebeb;
+    width: calc(15px + 4vw);
+    height: calc(15px + 4vw);
+}
+.envelope:hover {
+    background-color: #c03e58;
+}
+.planet-earth {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: white;
+    border: 0;
+    padding: 0;
+    border: 0.5px solid #ebebeb;
+    width: calc(15px + 4vw);
+    height: calc(15px + 4vw);
+}
+.planet-earth:hover {
+    background-color: #c03e58;
+}
+.kendall {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: white;
+    border: 0;
+    padding: 0;
+    border: 0.5px solid #ebebeb;
+    width: calc(15px + 4vw);
+    height: calc(15px + 4vw);
+}
+.kendall:hover {
+    background-color: #c03e58;
+    opacity: 0.9;
+}
+.kendall_img {
+    height: 100%;
+    width: 100%;
+}
+.kendall_text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    border: 0;
+    padding: 0;
+    border: 0.5px solid #ebebeb;
+    width: calc(15px + 4vw);
+    height: calc(15px + 4vw);
+}
+.kendall_text:hover {
+    background-color: #c03e58;
+}
+.span_kendall {
+    text-align: left;
+    color:  #fd5272;
+    font-size: calc(5px + 0.3vw);
+    font-family: Lato-Bold;
+}
+.span_kendall_grey {
+    text-align: left;
+    color:  #d9d9d9;
+    font-size: calc(5px + 0.3vw);
+    font-family: Lato-Bold;
+}
+.ellipse {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: white;
+    border: 0;
+    padding: 0;
+    border: 0.5px solid #ebebeb;
+    width: calc(15px + 4vw);
+    height: calc(15px + 4vw);
+}
+.ellipse:hover {
+    background-color: #c03e58;
+}

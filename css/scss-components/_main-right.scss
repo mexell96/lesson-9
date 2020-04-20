@@ -1,0 +1,124 @@
+.main_right {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: flex-start;
+    width: calc(20px + 18vw);
+    background-color: #e8f807;
+    div {
+        display: flex;
+        font-weight: bold;
+        font-size: calc(8px + 1vw);
+    }
+}
+.twousers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: #f97658;
+    width: calc(5px + 6vw);
+    height: calc(5px + 6vw);
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+.twousers:hover {
+    background-color: #c03e58;
+}
+.chat {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: #f97658;
+    width: calc(5px + 6vw);
+    height: calc(5px + 6vw);
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+.chat:hover {
+    background-color: #c03e58;
+}
+.like {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: #f97658;
+    width: calc(5px + 6vw);
+    height: calc(5px + 6vw);
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+.like:hover {
+    background-color: #c03e58;
+}
+.social {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.rdio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #a367d8;
+    width: calc(5px + 4vw);
+    height: calc(5px + 4vw);
+    margin: 10px;
+    border-radius: 30%;
+}
+.css3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #4cc2c3;
+    width: calc(5px + 4vw);
+    height: calc(5px + 4vw);
+    margin: 10px;
+    border-radius: 30%;
+}
+.deviantart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #d69589;
+    width: calc(5px + 4vw);
+    height: calc(5px + 4vw);
+    margin: 10px;
+    border-radius: 30%;
+}
+.xingX{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #747cdc;
+    width: calc(5px + 4vw);
+    height: calc(5px + 4vw);
+    margin: 10px;
+    border-radius: 30%;
+}
+.vimeo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #35bae0;
+    width: calc(5px + 4vw);
+    height: calc(5px + 4vw);
+    margin: 10px;
+    border-radius: 30%;
+}
+.vk{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f9c787;
+    width: calc(5px + 4vw);
+    height: calc(5px + 4vw);
+    margin: 10px;
+    border-radius: 30%;
+}

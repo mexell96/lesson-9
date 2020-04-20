@@ -1,0 +1,42 @@
+/* Import
+===========================================================================================================
+*/
+@import"scss-components/resets";
+@import"scss-components/variables";
+@import"scss-components/mixin";
+@import"scss-components/nav";
+@import"scss-components/font-family";
+@import"scss-components/header";
+@import"scss-components/statistics-tab";
+@import"scss-components/main";
+@import"scss-components/main-right";
+
+
+/* Html
+============================================================================================================
+*/
+body {
+    margin: 0;
+    padding: 0;
+}
+* {
+    box-sizing: border-box;
+}
+.wrapper {
+    display: flex;
+    height: 1080px;
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 0;
+}
+.container {
+    display: flexbox;
+    flex-direction: column;
+    width: 95%;
+    background-color: rgb(31, 240, 12);
+}
+@media screen and (max-width: 768px) {
+.container {
+    width: 100%;
+    }
+}
