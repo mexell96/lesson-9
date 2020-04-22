@@ -855,6 +855,18 @@ header {
   background-color: white;
 }
 
+@media screen and (width: 320px) {
+  .statistics-tab {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
 .box {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -962,6 +974,16 @@ main {
   width: 100%;
 }
 
+@media screen and (width: 320px) {
+  main {
+    width: 320px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
 .main_left {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -974,6 +996,12 @@ main {
           flex-direction: row;
   width: calc(200px + 60vw);
   background-color: #ebebeb;
+}
+
+@media screen and (width: 1080px) {
+  .main_left {
+    width: 50%;
+  }
 }
 
 .progress_diagram {
@@ -993,6 +1021,12 @@ main {
 .progress_diagram img {
   width: calc(100px + 45vw);
   height: calc(100px + 10vw);
+}
+
+@media screen and (width: 320px) {
+  .progress_diagram img {
+    max-width: 320px;
+  }
 }
 
 .progress_diagram div {
@@ -1191,6 +1225,12 @@ main {
   display: flex;
   font-weight: bold;
   font-size: calc(8px + 1vw);
+}
+
+@media screen and (width: 1080px) {
+  .main_right {
+    width: 50%;
+  }
 }
 
 .twousers {

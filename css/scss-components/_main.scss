@@ -3,6 +3,10 @@ main {
     flex-wrap: wrap;
     flex-direction: row;
     width: 100%;
+    @media screen and (width: 320px) {
+        width: 320px;
+        flex-direction: column;
+    }
 }
 .main_left {
     display: flex;
@@ -10,6 +14,9 @@ main {
     flex-direction: row;
     width: calc(200px + 60vw);
     background-color: #ebebeb;
+    @media screen and (width: 1080px) {
+        width: 50%;
+    }
 }
 .progress_diagram {
     display: flex;
@@ -20,6 +27,9 @@ main {
     img {
         width: calc(100px + 45vw);
         height: calc(100px + 10vw);
+        @media screen and (width: 320px) {
+            max-width: 320px;
+        }
     }
     div {
         display: flex;
@@ -35,7 +45,7 @@ main {
             font-size: calc(12px + 0.3vw);
             img {
                 width: 0.3vw;
-                height: 1vw;
+                height: 1vw; 
             }
         }
     }

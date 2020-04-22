@@ -10,6 +10,9 @@
         font-weight: bold;
         font-size: calc(8px + 1vw);
     }
+    @media screen and (width: 1080px) {
+        width: 50%;
+    }
 }
 .twousers {
     display: flex;
